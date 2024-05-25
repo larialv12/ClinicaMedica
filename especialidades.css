@@ -1,0 +1,155 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.sub_menu ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+    justify-content: center;
+    margin: 50px auto;
+  }
+  
+  .sub_menu ul li {
+    margin-right: 20px;
+    border-bottom: 3px solid #00A19A; /* Add bottom border */
+
+
+  
+  }
+   a {
+    text-decoration: none;
+    color: black;
+     
+  }
+
+  h1 {
+    text-align: center;
+    font-weight: 700;
+  
+    color: grey;
+    letter-spacing: 2px;
+
+  }
+
+ section h2,p {
+    text-align: center;
+    color: grey;
+    letter-spacing: 2px;
+  }
+
+  section p{
+    width: 40%;
+    margin: 20px auto;
+  }
+
+  table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+
+thead th {
+    background-color: #00A19A;
+    color: white;
+    padding: 10px;
+}
+
+tbody td {
+    background-color: #F1F1F1;
+    padding: 30px;
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(odd) td {
+    background-color: #CDCDCD;
+}
+
+.img_tabela {
+    display: flex;
+    margin: 0 5px;
+    height: auto;
+    justify-content: center;
+}
+
+.img_tabela img  {
+    width: 300px;
+    height: 275px;
+    margin: 0;
+    padding: 0;
+
+}
+
+table , img  {
+    margin: 0;
+}
+
+@media (max-width: 425px) {
+    body {
+      margin: 0;
+      padding: 0;
+    }
+  
+    header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+    }
+  
+    header ul {
+      padding-left: 10px;
+    }
+  
+    header ul li {
+      text-align: start;
+      font-size: 0.9em;
+    }
+  
+    header img {
+      margin: 0 auto;
+    }
+
+    .sub_menu ul {
+        display: flex;
+        display: none;
+        
+    }
+
+    .img_tabela {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    table {
+        width: 90%;
+    }
+
+    .img_tabela img {
+        width: 357px;
+
+    }
+
+   section p {
+        width: 90%;
+
+    }
+
+    
+
+
+}
+
+footer div p {
+    color: white;
+}
+
+
+  
