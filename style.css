@@ -29,6 +29,12 @@ body {
   
   header ul li {
     margin-right: 20px;
+    text-decoration: none;
+  }
+
+  header ul li a {
+     text-decoration: none;
+     color: white;
   }
   
   .banner {
@@ -47,16 +53,16 @@ body {
     padding-top: 10px;
   }
   
-  .sobre h2 {
+  #sobre h2 {
     text-align: center;
   }
   
-  .sobre p {
+  #sobre p {
     text-align: center;
     margin-bottom: 60px;
   }
   
-  .sobre {
+  #sobre {
     font-size: 1em;
   }
   
@@ -91,7 +97,7 @@ body {
     font-weight: normal;
   }
   
-  .cards {
+  #cards {
     margin-top: 60px;
   }
   
@@ -125,7 +131,7 @@ body {
     font-weight: 100;
   }
   
-  .cards button {
+  #cards button {
     display: flex;
     margin: 20px auto;
     padding: 18px;
@@ -135,7 +141,7 @@ body {
     font-weight: bold;
   }
   
-  .cards a {
+  #cards a {
     text-decoration-color: lightseagreen;
   }
   
@@ -178,7 +184,7 @@ body {
     text-align: center;
   }
   
-  @media (max-width: 425px) {
+  @media (max-width: 768px) {
     body {
       margin: 0;
       padding: 0;
@@ -204,7 +210,7 @@ body {
       margin: 0 auto;
     }
   
-    .sobre {
+    #sobre {
       display: flex;
       flex-direction: column;
       margin-top: 0;
@@ -219,6 +225,16 @@ body {
     .sobre_titulo {
       font-size: 1em;
       margin: 0 auto;
+    }
+
+    .sobre_texto h2 {
+       width: 90%;
+       margin: 0 auto;
+       font-weight: 700;
+  
+       color: grey;
+       letter-spacing: 2px;
+       
     }
   
     .sobre_img {
@@ -253,4 +269,58 @@ body {
       height: 280px;
     }
   }
+
+  @media   (min-width:770px) and (max-width:1300px)  {
+
+    
+body {
+}
+
+.sobre_texto h2 {
+  font-size:0.9em ;
+}
+
+#sobre h2 {
+  font-size: 0.9em;
+}
+
+#sobre p {
+    font-size: 0.5em;
+}
+
+.sobre_texto h2 {
+    font-size: 0.9em;
+}
+
+.sobre_texto ul {
+   margin: 20px 0;
+   width: 100%;
+}
+
+
+.card-img {
+   font-size: 0.5em ;
+}
+
+#cards p {
+  font-size:0.5em;
+
+}
+
+#cards h2{
+  font-size: 0.9em;
+
+}
+   #contato p {
+      font-size: 0.5em;
+     
+   }
+
+   #contato h2 {
+      font-size: 0.7em;
+
+   }
+   
+ }
+ 
   
