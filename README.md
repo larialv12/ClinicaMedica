@@ -22,12 +22,12 @@ Para configurar e executar este projeto localmente, siga as etapas abaixo:
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/biografia-katherine-johnson.git
+    git clone https://github.com/larialv12/ClinicaMedica
     ```
 
 2. Navegue até o diretório do projeto:
     ```bash
-    cd biografia-katherine-johnson
+    cd ClinicaMedica
     ```
 
 3. Abra o arquivo `index.html` em seu navegador preferido.
