@@ -5,6 +5,7 @@ O site da clínica médica é um projeto ficticio onde os pacientes podem obter 
 <div align="center">
   <img src= "https://github.com/user-attachments/assets/4e3d2eaa-3367-46ec-82f8-efcfc1ad3416" alt="Imagem 2" style="width: 200px; height: 400px;">
   <img src="https://github.com/user-attachments/assets/14552b0f-f847-404c-9177-154dcac42650" alt="Imagem 1" style="width: 600px; height: 400px;">
+</div>
   
 
 
