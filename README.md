@@ -1,6 +1,6 @@
 <h1>:pushpin:Clinica medica</h1>
 
-O site da clínica médica é projeto ficticio onde os pacientes podem obter informações sobre os serviços da clínica, . O site possui um design responsivo para garantir uma boa experiência de navegação em dispositivos móveis e desktops.
+O site da clínica médica é um projeto ficticio onde os pacientes podem obter informações sobre os serviços da clínica. O site possui um design responsivo para garantir uma boa experiência de navegação em dispositivos móveis e desktops.
 
 
 
